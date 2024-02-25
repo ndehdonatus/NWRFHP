@@ -47,46 +47,28 @@ export default function DefaultCarousel() {
                 alt="slider image" width={1200} height={1200}
                 src="/images/csmu1.jpg"
             />
-            <Image className='h-full'
-                alt="slider image" width={1200} height={1200}
-                src="/images/fonmedal1.jpg"
-            />
-            <Image className='h-full'
-                alt="slider image" width={1500} height={1500}
-                src="/images/sam and maggi.jpg"
-            />
+            
+
             <Image className='h-full'
                 alt="slider image" width={1200} height={1200}
                 src="/images/fondoh1.jpg"
             />
-            <Image className='h-full'
-                alt="slider image" width={1200} height={1200}
-                src="/images/fondohmedal1.jpg"
-            />
+            
             <Image className='h-full'
                 alt="slider image" width={1200} height={1200}
                 src="/images/yembe1.jpg"
             />
-            <Image className='h-full'
-                alt="slider image" width={1200} height={1200}
-                src="/images/ndzi1.jpg"
-            />
+
             <Image className='h-full'
                 alt="slider image" width={1200} height={1200}
                 src="/images/comca.jpg"
             />
-            <Image className='h-full'
-                alt="slider image" width={1200} height={1300}
-                src="/images/fonmaggi.jpg"
-            />
+
             <Image className='h-full'
                 alt="slider image" width={1200} height={1200}
                 src="/images/odrana1.jpg"
             />
-            <Image className='h-full'
-                alt="slider image" width={1200} height={1200}
-                src="/images/fomuso1.jpg"
-            />
+
             <Image className='h-full'
                 alt="slider image" width={1200} height={1200}
                 src="/images/mbakong1.jpg"
@@ -115,10 +97,7 @@ export default function DefaultCarousel() {
                 alt="slider image" width={1200} height={1200}
                 src="/images/medalists.jpg"
             />
-            <Image className='h-full'
-                alt="slider image" width={1200} height={1200}
-                src="/images/maggi1.jpg"
-            />
+
             <Image className='h-full'
                 alt="slider image" width={1200} height={1200}
                 src="/images/medalists2.jpg"
