@@ -47,13 +47,13 @@ export default function DefaultCarousel() {
                 alt="slider image" width={1200} height={1200}
                 src="/images/csmu1.jpg"
             />
-            
+
 
             <Image className='h-full'
                 alt="slider image" width={1200} height={1200}
                 src="/images/fondoh1.jpg"
             />
-            
+
             <Image className='h-full'
                 alt="slider image" width={1200} height={1200}
                 src="/images/yembe1.jpg"
@@ -102,6 +102,8 @@ export default function DefaultCarousel() {
                 alt="slider image" width={1200} height={1200}
                 src="/images/medalists2.jpg"
             />
+
+            
         </Carousel>
     )
 }
