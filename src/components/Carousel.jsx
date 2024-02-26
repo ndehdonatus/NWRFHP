@@ -39,10 +39,7 @@ export default function DefaultCarousel() {
                 alt="slider image" width={1200} height={1200}
                 src="/images/nkca.jpg"
             />
-            <Image className='h-full'
-                alt="slider image" width={1200} height={1200}
-                src="/images/substore.jpg"
-            />
+
             <Image className='h-full'
                 alt="slider image" width={1200} height={1200}
                 src="/images/csmu1.jpg"
