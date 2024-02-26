@@ -103,7 +103,11 @@ export default function DefaultCarousel() {
                 src="/images/medalists2.jpg"
             />
 
-            
+<Image className='h-full'
+                alt="slider image" width={1200} height={1200}
+                src="/images/fonmedal1.jpg"
+            />
+
         </Carousel>
     )
 }
