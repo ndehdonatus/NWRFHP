@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
+    
+        images :{
         // limit of 25 deviceSizes values
         // deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
         // // limit of 25 imageSizes values
@@ -29,7 +30,7 @@ const nextConfig = {
         // remotePatterns: [],
         // // when true, every image will be unoptimized
         // unoptimized: false,
-    },
-}
+},
 
+}
 module.exports = nextConfig

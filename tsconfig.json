@@ -28,7 +28,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/app/lib/data.js", "src/components/postUser/PostUser.jsx"  ],
   "exclude": [
     "node_modules"
   ]
