@@ -1,0 +1,20 @@
+.name{
+    /* margin-bottom: 50px; */
+    padding: 60px;
+    
+}
+
+.gallery{
+    padding: 20px;
+}
+
+.img{
+    border-radius: 30px ;
+}
+
+@media screen and (max-width: 600px) {
+    .name {
+    padding: 20px;
+    background-color: rgb(163, 71, 71);
+    }
+}

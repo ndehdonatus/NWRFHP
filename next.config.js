@@ -30,7 +30,22 @@ const nextConfig = {
         // remotePatterns: [],
         // // when true, every image will be unoptimized
         // unoptimized: false,
-},
 
+// images:{
+        // localPatterns:[
+
+                // {
+                        // protocol:"",
+                        // hostname:"localhost",
+                        // port: 27017,
+                        // pathname:"NWRFHP"
+                }
+        // ]
 }
+
+
+
+// },
+
+// }
 module.exports = nextConfig

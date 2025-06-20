@@ -1,0 +1,106 @@
+.container {
+    height: calc(100vh - 75px);
+     width: 100%; 
+    background-color: rgba(0, 0, 0, 0.4); 
+    background-image: url("../../public/images/formulary.jpg"); 
+    background-blend-mode: darken;
+     /* background-image: url("../app/assets/bookshelf.jpg");  */
+    background-position: center;
+     background-size: cover; 
+     border-radius: 30px; 
+}
+
+.wrapper {
+    /* background-image: url("../../public/images/formulary.jpg"); */
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    /* background-position: center; */
+        /* background-size: cover; */
+
+     /* position: relative; */
+    height: 100%;
+    width: 100%; 
+    position: absolute;
+    top: 13.5em;
+    left: 10rem;
+    
+
+}
+
+
+
+.title {
+    margin-bottom: 2rem;
+    font-size: 50px;
+    color: white;
+}
+
+.desc{
+    font-size: 22px;
+    color:white;
+    text-decoration: underline;
+}
+
+.inputContainer{
+    margin-top: 2rem;
+    padding: 0,0.5rem;
+    padding-right: 0rem;
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: white;
+    width: 350px;
+    height: 50px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.inputContainer > input{
+    border:none;
+    outline: none;
+    padding-left: 0.5rem;
+    width: 80%;
+    height:100% ;
+    transition: 150ms;
+
+}
+.inputContainer > input:focus{
+    padding-left: 0.75rem;
+
+}
+
+.inputContainer > button{
+    border: none;
+    outline: none;
+    width: 20%;
+    height: 100%;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+.inputContainer > button:hover{
+    background-color: var(--primary-color-darker);
+}
+
+.main{
+    background-color: black;
+}
+
+@media screen and (max-width : 600px){
+
+    .title{
+        font-size: 20px;
+    }
+
+        .inputContainer{
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            width: 225px;
+        }
+
+        .container{
+            color: blue;
+        }
+    
+}

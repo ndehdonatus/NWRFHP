@@ -1,10 +1,6 @@
 {
   "compilerOptions": {
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -27,9 +23,12 @@
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "src/app/lib/data.js", "src/components/postUser/PostUser.jsx"  ],
-  "exclude": [
-    "node_modules"
-  ]
+    "**/*.tsx",
+    "src/app/lib/data.js",
+    "src/components/postUser/PostUser.jsx",
+    "src/app/store/page.js",
+    "src/app/store/[id]/page.js",
+    "src/app/iu/books/BookCard.js"
+, "src/app/iu/books/AddToCart.js", "src/app/page.jsx"  ],
+  "exclude": ["node_modules"]
 }
